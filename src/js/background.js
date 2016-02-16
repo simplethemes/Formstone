@@ -322,7 +322,7 @@
 
 		if (!data.posterLoaded) {
 			if (!data.source.poster) {
-				data.source.poster = "http://img.youtube.com/vi/" + data.videoId + "/0.jpg";
+				data.source.poster = "http://img.youtube.com/vi/" + data.videoId + "/maxresdefault.jpg";
 			}
 
 			data.posterLoaded = true;
